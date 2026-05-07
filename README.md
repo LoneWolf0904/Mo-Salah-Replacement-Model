@@ -24,7 +24,7 @@ Moving beyond basic raw-stat comparisons, this pipeline employs Cosine Similarit
 1. **Profile Definition & Normalization:** Isolate Salah's per-90 metrics. Apply `MinMaxScaler` (0–1 scale) to all player data to ensure fair comparison across different leagues and tactical contexts.
 2. **Similarity Scoring:** Calculate a **Cosine Similarity** score for every qualifying player against Salah's normalized profile to produce a mathematically ranked shortlist.
 3. **Unsupervised Clustering:** Apply **KMeans Clustering** to group players into tactical archetypes. Identify Salah's specific cluster to find players not just with high output, but similar structural playstyles.
-4. **Feasibility Filtering:** Apply a realistic market value filter (€60M–€80M range) via Transfermarkt data to narrow the shortlist to realistic scouting targets.
+4. **Feasibility Filtering:** Apply a realistic market value filter (€60M–€120M range) via Transfermarkt data to narrow the shortlist to realistic scouting targets.
 
 ## 🗺️ Project Roadmap
 
